@@ -1,0 +1,62 @@
+{
+  "editor.formatOnSave": true,
+  "isort.args": ["--profile", "black"],
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[javascript][json][jsonc][css][scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jinja][jinja-html][django-html]": {
+    "editor.defaultFormatter": "monosans.djlint",
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+  },
+  "[yaml][yml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.autoIndent": "advanced",
+    "editor.formatOnSave": true
+  },
+  "git.enableSmartCommit": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "debug.inlineValues": "on",
+  "black-formatter.args": ["--line-length=120"],
+  "editor.rulers": [120],
+  "python.analysis.autoFormatStrings": true,
+  "python.languageServer": "Pylance",
+  "terminal.integrated.persistentSessionScrollback": 10000,
+  "terminal.integrated.scrollback": 10000,
+  "extensions.ignoreRecommendations": true,
+  "python.venvPath": "C:\\Users\\dchen\\AppData\\Local\\pypoetry\\Cache\\virtualenvs",
+  "editor.mouseWheelZoom": true,
+  "git.ignoreRebaseWarning": true,
+  "python.testing.unittestEnabled": true,
+  "liveSassCompile.settings.watchOnLaunch": true,
+  "workbench.editor.wrapTabs": true,
+  "numberedBookmarks.navigateThroughAllFiles": "allowDuplicates",
+  "emmet.includeLanguages": {
+    "jinja2": "html",
+    "jinja-html": "html",
+    "django-html": "html"
+  },
+  // Only enable unused import warnings
+  "pylint.args": [
+    "--max-line-length=120",
+    "--disable=C,E1102",
+    "--generate-members=cv2.*"
+  ],
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.exclude": {
+    "**/__pycache__": true
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
+}
