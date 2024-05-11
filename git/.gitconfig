@@ -1,0 +1,6 @@
+[user]
+	email = chendavid96@gmail.com
+	name = David Chen
+[core]
+	symlinks = true
+	excludesFile = ~/.gitignore  # Assumes it's in the %USERPROFILE% directory
