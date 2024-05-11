@@ -4,3 +4,6 @@
 [core]
 	symlinks = true
 	excludesFile = ~/.gitignore  # Assumes it's in the %USERPROFILE% directory
+[alias]
+	ac = !git add -A && git commit
+	pom = !git push origin master
